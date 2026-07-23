@@ -22,7 +22,7 @@ docs/                      運用・統合ドキュメント
 ## 利用原則
 
 1. 共通知識の変更はこのリポジトリで行う。
-2. WriterとArticle Creatorは、リリース済みバージョンの検証済みスナップショットを取り込む。
+2. WriterとArticle Creatorは、リリース済みバージョンから生成した「製品別スコープ済みスナップショット」を取り込む。
 3. 製品側で共通知識を独自編集しない。
 4. 製品への取り込み後は、各製品の回帰テストを実行する。
 
@@ -33,3 +33,8 @@ docs/                      運用・統合ドキュメント
 
 ## v1.1.1 Operational Learning
 中心主張、Evidence表現、データ不足時の縮退、購入情報鮮度を共通ルールとして追加しました。
+
+
+## v1.1.3 Product-scoped snapshots
+
+完全なShared Repositoryには両製品のmappingを保持しますが、各Claude Projectへ同梱するsnapshotには対象製品のmappingだけを含めます。詳細は `docs/product-scoped-snapshot-policy.md` を参照してください。

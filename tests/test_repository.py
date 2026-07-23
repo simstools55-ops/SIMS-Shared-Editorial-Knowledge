@@ -26,7 +26,7 @@ def test_required_files_exist():
 
 
 def test_version_is_current():
-    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "1.1.2"
+    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "1.1.3"
 
 
 def test_no_empty_markdown_files():
