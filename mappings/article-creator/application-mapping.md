@@ -12,3 +12,13 @@ SIMS Article Creatorは共通知識を新規記事設計へ適用する。
 | Decision Support | 比較表・条件別判断・向き不向きを必要に応じて設計する |
 
 事実、体験、レビュー、価格、仕様、効果を創作しない。
+
+
+## Shared v1.3.0 Common Validation Mapping
+
+- VAL-FACT-001 数値整合性
+- VAL-EVIDENCE-002 Evidence境界
+- VAL-CAUSAL-001 因果表現
+- VAL-CONSISTENCY-001 論理整合性
+- VAL-ENTITY-001 HTML Entity整合性
+- VAL-LINK-001 内部リンク整合性

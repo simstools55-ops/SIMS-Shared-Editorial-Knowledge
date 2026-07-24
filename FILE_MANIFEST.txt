@@ -7,10 +7,12 @@ docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
 docs/scope.md
 knowledge/buyer-trust-and-freshness.md
+knowledge/causal-expression-safety.md
 knowledge/central-claim-evidence-priority.md
 knowledge/conditional-editorial-opinion.md
 knowledge/decision-support.md
 knowledge/entity-alias-and-taxonomy-freshness.md
+knowledge/evidence-boundary.md
 knowledge/evidence-strength-wording.md
 knowledge/evidence-transparency.md
 knowledge/existing-content-reflection.md
@@ -19,8 +21,12 @@ knowledge/faq-reconstruction.md
 knowledge/freshness-safety.md
 knowledge/graceful-degradation.md
 knowledge/hidden-anxiety.md
+knowledge/html-entity-integrity.md
 knowledge/intent-analysis.md
+knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
+knowledge/logical-consistency.md
+knowledge/numeric-consistency.md
 knowledge/query-data-analysis.md
 knowledge/serp-entity-preservation.md
 knowledge/source-scope-qualification.md
@@ -31,5 +37,7 @@ tests/test_v1_1_0_knowledge.py
 tests/test_v1_1_1_operational_learning.py
 tests/test_v1_1_2_writer_mapping.py
 tests/test_v1_1_3_snapshot_scope.py
+tests/test_v1_3_0_common_validation.py
 tools/build_scoped_snapshot.py
+validation/common-editorial-validation.md
 validation/shared-knowledge-validation.md
