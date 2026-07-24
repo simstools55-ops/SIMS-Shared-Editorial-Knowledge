@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 - 2026-07-24
+- 最大200件のSearch Console Query Data解析ルールを追加。
+- Coverage信頼度、Raw Query Preservation、Intent Action Classificationを追加。
+- QUERY MIX、CONTENT GAP、カニバリ判定の推論境界を明文化。
+
+# Changelog
+
 ## 1.1.3 - 2026-07-23
 
 ### Fixed
