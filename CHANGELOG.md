@@ -43,3 +43,7 @@
 ## 1.0.0
 
 - Established the Shared Editorial Knowledge repository and Writer/Article Creator mappings.
+
+## 1.3.2
+
+- Added common Publication QA principles and validation requirements for final editorial release review.

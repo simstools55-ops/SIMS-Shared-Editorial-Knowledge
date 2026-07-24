@@ -27,9 +27,11 @@ knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
 knowledge/logical-consistency.md
 knowledge/numeric-consistency.md
+knowledge/publication-qa-principles.md
 knowledge/query-data-analysis.md
 knowledge/serp-entity-preservation.md
 knowledge/source-scope-qualification.md
+manifest.json
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 tests/test_repository.py
@@ -41,4 +43,5 @@ tests/test_v1_3_0_common_validation.py
 tests/test_v1_3_1_entity_integrity.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
+validation/publication-qa-validation.md
 validation/shared-knowledge-validation.md
