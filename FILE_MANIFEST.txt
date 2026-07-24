@@ -1,9 +1,15 @@
 .gitignore
+.pytest_cache/.gitignore
+.pytest_cache/CACHEDIR.TAG
+.pytest_cache/README.md
+.pytest_cache/v/cache/lastfailed
+.pytest_cache/v/cache/nodeids
 CHANGELOG.md
 LICENSE
 README.md
 RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md
 RELEASE_NOTES_v1.3.5_FINAL_OUTPUT_CONTRACT.md
+RELEASE_NOTES_v1.3.6_PUBLICATION_PIPELINE_INTEGRITY.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -29,6 +35,7 @@ knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
 knowledge/logical-consistency.md
 knowledge/numeric-consistency.md
+knowledge/publication-pipeline-integrity.md
 knowledge/publication-qa-evaluation-standard.md
 knowledge/publication-qa-principles.md
 knowledge/query-data-analysis.md
@@ -38,6 +45,13 @@ mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/final-publication-output-principles.md
+tests/__pycache__/test_repository.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_1_0_knowledge.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_1_1_operational_learning.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_1_2_writer_mapping.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_1_3_snapshot_scope.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_3_0_common_validation.cpython-313-pytest-9.0.2.pyc
+tests/__pycache__/test_v1_3_1_entity_integrity.cpython-313-pytest-9.0.2.pyc
 tests/test_repository.py
 tests/test_v1_1_0_knowledge.py
 tests/test_v1_1_1_operational_learning.py
@@ -47,6 +61,7 @@ tests/test_v1_3_0_common_validation.py
 tests/test_v1_3_1_entity_integrity.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
+validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
 validation/shared-knowledge-validation.md
