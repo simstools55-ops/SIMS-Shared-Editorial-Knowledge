@@ -38,6 +38,7 @@ tests/test_v1_1_1_operational_learning.py
 tests/test_v1_1_2_writer_mapping.py
 tests/test_v1_1_3_snapshot_scope.py
 tests/test_v1_3_0_common_validation.py
+tests/test_v1_3_1_entity_integrity.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/shared-knowledge-validation.md
