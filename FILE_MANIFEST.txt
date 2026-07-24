@@ -3,6 +3,7 @@ CHANGELOG.md
 LICENSE
 README.md
 RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md
+RELEASE_NOTES_v1.3.5_FINAL_OUTPUT_CONTRACT.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -36,6 +37,7 @@ knowledge/source-scope-qualification.md
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
+quality/final-publication-output-principles.md
 tests/test_repository.py
 tests/test_v1_1_0_knowledge.py
 tests/test_v1_1_1_operational_learning.py

@@ -57,3 +57,6 @@
 
 ## 1.3.4
 - Added platform-neutral Editorial QA Contract v1.
+
+## 1.3.5
+- Added final publication output principles and held-draft suppression rule.
