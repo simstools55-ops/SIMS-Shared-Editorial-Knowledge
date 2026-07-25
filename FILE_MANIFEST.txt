@@ -16,6 +16,7 @@ RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
+RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -50,6 +51,7 @@ knowledge/serp-entity-preservation.md
 knowledge/serp-first-editorial-planning.md
 knowledge/source-scope-qualification.md
 knowledge/validation-auditability.md
+manifest.json
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 quality/COPY_READY_OUTPUT_STANDARD_V2.md
@@ -59,14 +61,6 @@ quality/PUBLICATION_VISIBILITY_POLICY_V2.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
 quality/final-publication-output-principles.md
-tests/__pycache__/test_repository.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_1_0_knowledge.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_1_1_operational_learning.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_1_2_writer_mapping.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_1_3_snapshot_scope.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_3_0_common_validation.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v1_3_1_entity_integrity.cpython-313-pytest-9.0.2.pyc
-tests/__pycache__/test_v2_0_0_dev2_serp_first.cpython-313-pytest-9.0.2.pyc
 tests/test_repository.py
 tests/test_v1_1_0_knowledge.py
 tests/test_v1_1_1_operational_learning.py
@@ -75,6 +69,7 @@ tests/test_v1_1_3_snapshot_scope.py
 tests/test_v1_3_0_common_validation.py
 tests/test_v1_3_1_entity_integrity.py
 tests/test_v2_0_0_dev2_serp_first.py
+tests/test_v2_0_0_dev3_serp_evidence_gate.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/publication-pipeline-integrity-validation.md
