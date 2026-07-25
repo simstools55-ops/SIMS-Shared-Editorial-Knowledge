@@ -7,6 +7,7 @@ RELEASE_NOTES_v1.3.5_FINAL_OUTPUT_CONTRACT.md
 RELEASE_NOTES_v1.3.6_PUBLICATION_PIPELINE_INTEGRITY.md
 RELEASE_NOTES_v1.3.7_JAPANESE_QA.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
+RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -58,3 +59,4 @@ validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
 validation/shared-knowledge-validation.md
+validation/validation-message-integrity.md
