@@ -9,6 +9,7 @@ RELEASE_NOTES_v1.3.7_JAPANESE_QA.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
+RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -18,6 +19,7 @@ knowledge/causal-expression-safety.md
 knowledge/central-claim-evidence-priority.md
 knowledge/conditional-editorial-opinion.md
 knowledge/decision-support.md
+knowledge/editorial-decision-and-visibility.md
 knowledge/entity-alias-and-taxonomy-freshness.md
 knowledge/evidence-boundary.md
 knowledge/evidence-strength-wording.md
@@ -43,8 +45,10 @@ knowledge/source-scope-qualification.md
 knowledge/validation-auditability.md
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
+quality/COPY_READY_OUTPUT_STANDARD_V2.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md
+quality/PUBLICATION_VISIBILITY_POLICY_V2.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
 quality/final-publication-output-principles.md
