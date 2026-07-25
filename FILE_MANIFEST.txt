@@ -8,6 +8,7 @@ RELEASE_NOTES_v1.3.6_PUBLICATION_PIPELINE_INTEGRITY.md
 RELEASE_NOTES_v1.3.7_JAPANESE_QA.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
+RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -39,6 +40,7 @@ knowledge/publication-qa-principles.md
 knowledge/query-data-analysis.md
 knowledge/serp-entity-preservation.md
 knowledge/source-scope-qualification.md
+knowledge/validation-auditability.md
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 quality/EDITORIAL_QA_CONTRACT_V1.md

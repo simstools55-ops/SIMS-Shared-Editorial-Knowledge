@@ -1,3 +1,6 @@
+# v1.4.0
+- Validation監査メッセージとQA履歴構造を標準化
+
 # v1.3.9
 
 - Validation Message Integrity Hotfix。空メッセージを正例・Schema・Normalizer・最終ゲート・テストの全層で禁止。
