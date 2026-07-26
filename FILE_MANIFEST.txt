@@ -23,6 +23,7 @@ RELEASE_NOTES_v2.0.0_RC_FINAL.md
 RELEASE_NOTES_v2.0.0_RC_FINAL_2.md
 RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md
 RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_2.md
+RELEASE_NOTES_v2.0.1.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -52,6 +53,7 @@ knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
 knowledge/logical-consistency.md
 knowledge/natural-japanese-and-similarity-reporting.md
+knowledge/natural-japanese-publication-flags-terminology.md
 knowledge/numeric-consistency.md
 knowledge/progressive-editing.md
 knowledge/publication-pipeline-integrity.md
@@ -97,6 +99,7 @@ tests/test_v2_0_0_dev6_knowledge_confidence.py
 tests/test_v2_0_0_rc1_four_layers.py
 tests/test_v2_0_0_release_candidate_2.py
 tests/test_v2_0_0_release_final_quality_gates.py
+tests/test_v2_0_1_hotfix.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/editorial-strategy-validation.md
