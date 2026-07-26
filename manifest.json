@@ -82,5 +82,6 @@
   "validation/publication-qa-regression-validation.md": "77b21c874310f4f49a775561d13652aad2d4eb66b1ac295e710b9f026b84fec5",
   "validation/publication-qa-validation.md": "01a40461a69feeeac2c8a2509801508c003bbe32cc8f3aed253d33d0851c99d2",
   "validation/shared-knowledge-validation.md": "d76ef622d4f4b39ccc1413d0ce20139e970f66911044b6ce4e26e8641946881d",
-  "validation/validation-message-integrity.md": "f8d62aa7a5c286439575c4b0a3177585c26bf4f662ab5f5b7d3f76c8c3a15dac"
+  "validation/validation-message-integrity.md": "f8d62aa7a5c286439575c4b0a3177585c26bf4f662ab5f5b7d3f76c8c3a15dac",
+  "version": "2.0.0-dev.4"
 }

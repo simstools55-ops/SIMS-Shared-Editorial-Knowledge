@@ -8,4 +8,4 @@ def test_writer_mapping_boundary():
     assert "QUALITY_FRAMEWORK.md" in text
 
 def test_version():
-    assert (ROOT/"VERSION").read_text().strip()=="2.0.0-dev.3"
+    assert (ROOT/"VERSION").read_text().strip()=="2.0.0-dev.4"

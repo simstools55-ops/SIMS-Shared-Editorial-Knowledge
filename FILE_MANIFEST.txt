@@ -1,9 +1,4 @@
 .gitignore
-.pytest_cache/.gitignore
-.pytest_cache/CACHEDIR.TAG
-.pytest_cache/README.md
-.pytest_cache/v/cache/lastfailed
-.pytest_cache/v/cache/nodeids
 CHANGELOG.md
 LICENSE
 README.md
@@ -17,6 +12,7 @@ RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
+RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -38,6 +34,7 @@ knowledge/freshness-safety.md
 knowledge/graceful-degradation.md
 knowledge/hidden-anxiety.md
 knowledge/html-entity-integrity.md
+knowledge/integrated-serp-query-evidence.md
 knowledge/intent-analysis.md
 knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
@@ -56,6 +53,7 @@ mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 quality/COPY_READY_OUTPUT_STANDARD_V2.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
+quality/EVIDENCE_DECISION_POLICY_V2.md
 quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md
 quality/PUBLICATION_VISIBILITY_POLICY_V2.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
@@ -70,8 +68,10 @@ tests/test_v1_3_0_common_validation.py
 tests/test_v1_3_1_entity_integrity.py
 tests/test_v2_0_0_dev2_serp_first.py
 tests/test_v2_0_0_dev3_serp_evidence_gate.py
+tests/test_v2_0_0_dev4_evidence_layer.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
+validation/evidence-contamination-validation.md
 validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
