@@ -128,3 +128,6 @@ Canonical Publication QA output, unresolved-finding verdict alignment, claim-pre
 
 ## 1.3.5
 - Added final publication output principles and held-draft suppression rule.
+
+## 2.0.0-rc.2
+- Added final integration precedence and visibility validation.

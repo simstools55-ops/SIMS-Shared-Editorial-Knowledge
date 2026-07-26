@@ -16,6 +16,7 @@ RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md
 RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md
 RELEASE_NOTES_v2.0.0_RC1.md
+RELEASE_NOTES_v2.0.0_RC2.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -54,7 +55,6 @@ knowledge/serp-entity-preservation.md
 knowledge/serp-first-editorial-planning.md
 knowledge/source-scope-qualification.md
 knowledge/validation-auditability.md
-manifest.json
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 patterns/answer-first-pattern.md
@@ -92,5 +92,6 @@ validation/knowledge-confidence-validation.md
 validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
+validation/rc2-final-integration-validation.md
 validation/shared-knowledge-validation.md
 validation/validation-message-integrity.md
