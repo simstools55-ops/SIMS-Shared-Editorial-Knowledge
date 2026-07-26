@@ -69,3 +69,9 @@ Sharedルールの追加・変更は、次を満たすまで製品リリース�
 - 回帰テスト追加
 - Writer用Scoped Snapshot再生成
 - 既存ContractとVisibility Policyへの非干渉確認
+
+
+## Learning Registry Connection (v2.2.0)
+
+すべての実記事Learningは `learning/LEARNING_REGISTRY.json` で追跡し、Pattern Libraryへの昇格前に既存ルール照合を行います。
+採用・却下・重複・実装・検証の履歴は `learning/DECISION_LOG.md` に残します。

@@ -1,11 +1,5 @@
 .gitignore
-.pytest_cache/.gitignore
-.pytest_cache/CACHEDIR.TAG
-.pytest_cache/README.md
-.pytest_cache/v/cache/lastfailed
-.pytest_cache/v/cache/nodeids
 CHANGELOG.md
-FILE_MANIFEST.txt
 LICENSE
 README.md
 RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md
@@ -31,7 +25,7 @@ RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md
 RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_2.md
 RELEASE_NOTES_v2.0.1.md
 RELEASE_NOTES_v2.1.0.md
-SHA256SUMS.txt
+RELEASE_NOTES_v2.2.0.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -74,6 +68,11 @@ knowledge/serp-entity-preservation.md
 knowledge/serp-first-editorial-planning.md
 knowledge/source-scope-qualification.md
 knowledge/validation-auditability.md
+learning/DECISION_LOG.md
+learning/LEARNING_INTAKE_TEMPLATE.md
+learning/LEARNING_REGISTRY.json
+learning/LEARNING_SPRINT_PLAYBOOK.md
+learning/README.md
 manifest.json
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
@@ -94,6 +93,7 @@ quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/EVIDENCE_DECISION_POLICY_V2.md
 quality/FOUR_LAYER_ARCHITECTURE_V2.md
 quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md
+quality/LEARNING_REGISTRY_POLICY.md
 quality/OPERATIONAL_LEARNING_PROMOTION_POLICY.md
 quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md
 quality/PUBLICATION_VISIBILITY_POLICY_V2.md
@@ -121,11 +121,13 @@ tests/test_v2_0_0_release_candidate_2.py
 tests/test_v2_0_0_release_final_quality_gates.py
 tests/test_v2_0_1_hotfix.py
 tests/test_v2_1_0_quality_pattern_library.py
+tests/test_v2_2_0_learning_registry.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/editorial-strategy-validation.md
 validation/evidence-contamination-validation.md
 validation/knowledge-confidence-validation.md
+validation/learning-registry-validation.md
 validation/natural-japanese-and-similarity-validation.md
 validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
