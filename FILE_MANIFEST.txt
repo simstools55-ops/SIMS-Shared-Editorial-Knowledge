@@ -15,6 +15,7 @@ RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
 RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md
 RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md
+RELEASE_NOTES_v2.0.0_GOLD1.md
 RELEASE_NOTES_v2.0.0_RC1.md
 RELEASE_NOTES_v2.0.0_RC2.md
 RELEASE_NOTES_v2.0.0_RC_FINAL.md
@@ -74,6 +75,7 @@ quality/USER_FACING_TERMINOLOGY_JA.md
 quality/final-publication-output-principles.md
 strategy/editorial-strategy-selection.md
 strategy/problem-cause-strategy-map.md
+strategy/serp-gap-importance-policy.md
 tests/test_repository.py
 tests/test_v1_1_0_knowledge.py
 tests/test_v1_1_1_operational_learning.py

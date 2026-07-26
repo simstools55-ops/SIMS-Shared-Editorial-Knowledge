@@ -1,4 +1,7 @@
-## 2.0.0-rc.4
+## 2.0.0-gold.1
+- Add quantitative SERP evidence, gap importance, and user-facing decision trace with Contract 4.2.
+
+## 2.0.0-gold.1
 
 - 公開可否の冒頭一文を必須化。
 - 公開OK理由を平易な一文以内へ短文化。
@@ -136,8 +139,8 @@ Canonical Publication QA output, unresolved-finding verdict alignment, claim-pre
 ## 1.3.5
 - Added final publication output principles and held-draft suppression rule.
 
-## 2.0.0-rc.4
+## 2.0.0-gold.1
 - Added final integration precedence and visibility validation.
 
-## 2.0.0-rc.4
+## 2.0.0-gold.1
 - Add shared SERP gap explainability pattern.
