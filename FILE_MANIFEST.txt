@@ -20,6 +20,7 @@ RELEASE_NOTES_v2.0.0_RC1.md
 RELEASE_NOTES_v2.0.0_RC2.md
 RELEASE_NOTES_v2.0.0_RC_FINAL.md
 RELEASE_NOTES_v2.0.0_RC_FINAL_2.md
+RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -54,6 +55,7 @@ knowledge/publication-pipeline-integrity.md
 knowledge/publication-qa-evaluation-standard.md
 knowledge/publication-qa-principles.md
 knowledge/query-data-analysis.md
+knowledge/semantic-expectation-ymyl-safety.md
 knowledge/serp-entity-preservation.md
 knowledge/serp-first-editorial-planning.md
 knowledge/source-scope-qualification.md
@@ -89,6 +91,7 @@ tests/test_v2_0_0_dev4_evidence_layer.py
 tests/test_v2_0_0_dev5_progressive_editing.py
 tests/test_v2_0_0_dev6_knowledge_confidence.py
 tests/test_v2_0_0_rc1_four_layers.py
+tests/test_v2_0_0_release_final_quality_gates.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/editorial-strategy-validation.md
@@ -98,5 +101,6 @@ validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
 validation/rc2-final-integration-validation.md
+validation/release-final-quality-gates.md
 validation/shared-knowledge-validation.md
 validation/validation-message-integrity.md
