@@ -9,6 +9,7 @@ RELEASE_NOTES_v1.3.7_JAPANESE_QA.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
+RELEASE_NOTES_v2.0.0.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
@@ -50,6 +51,7 @@ knowledge/intent-analysis.md
 knowledge/internal-link-integrity.md
 knowledge/internal-link-semantics.md
 knowledge/logical-consistency.md
+knowledge/natural-japanese-and-similarity-reporting.md
 knowledge/numeric-consistency.md
 knowledge/progressive-editing.md
 knowledge/publication-pipeline-integrity.md
@@ -100,6 +102,7 @@ validation/common-editorial-validation.md
 validation/editorial-strategy-validation.md
 validation/evidence-contamination-validation.md
 validation/knowledge-confidence-validation.md
+validation/natural-japanese-and-similarity-validation.md
 validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md
