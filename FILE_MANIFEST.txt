@@ -17,6 +17,8 @@ RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md
 RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md
 RELEASE_NOTES_v2.0.0_RC1.md
 RELEASE_NOTES_v2.0.0_RC2.md
+RELEASE_NOTES_v2.0.0_RC_FINAL.md
+RELEASE_NOTES_v2.0.0_RC_FINAL_2.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -59,6 +61,7 @@ mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 patterns/answer-first-pattern.md
 patterns/gap-completion-pattern.md
+patterns/serp-gap-report-pattern.md
 quality/COPY_READY_OUTPUT_STANDARD_V2.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/EVIDENCE_DECISION_POLICY_V2.md
