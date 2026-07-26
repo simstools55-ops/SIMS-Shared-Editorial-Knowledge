@@ -1,6 +1,6 @@
 # Release Final Quality Gates
 
-Version: 2.0.0 Release Candidate 1
+Version: 2.0.0 Release Candidate 2
 
 The final publication gate runs after Strategy, Evidence, Progressive Editing and UX filtering.
 
@@ -22,3 +22,9 @@ Priority order:
 - `VAL-BENEFIT-CLAIM-001`: adequacy and benefit claims require official/primary evidence or safer wording.
 
 A blocking finding cannot be promoted by Editorial Strategy, SERP importance or CTR opportunity.
+- `VAL-SCOPE-ALIGNMENT-001`: title/meta must not expand into adjacent intents explicitly excluded from the article scope.
+- `VAL-DEVICE-PATH-001`: OS/vendor-dependent setting paths must be qualified or expressed as a settings-search instruction.
+- `VAL-INTERNAL-LINK-OVERLAP-001`: every proposed internal link must pass role separation, query-overlap and cannibalization review using the same rule.
+
+
+A blocking scope, device-path, or overlap finding cannot be promoted by SERP demand or CTR opportunity.
