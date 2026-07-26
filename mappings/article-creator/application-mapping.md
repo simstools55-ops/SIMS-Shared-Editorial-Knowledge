@@ -22,3 +22,8 @@ SIMS Article Creatorは共通知識を新規記事設計へ適用する。
 - VAL-CONSISTENCY-001 論理整合性
 - VAL-ENTITY-001 HTML Entity整合性
 - VAL-LINK-001 内部リンク整合性
+
+
+## v2.1.0 Quality Pattern Library boundary
+
+Article Creatorは製品中立Patternのみを利用する。既存記事のBefore/After、Preservation、Search Console固有判断はWriter専用であり適用しない。
