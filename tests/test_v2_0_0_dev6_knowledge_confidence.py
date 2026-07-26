@@ -3,4 +3,4 @@ ROOT=Path(__file__).resolve().parents[1]
 def test_dev6_assets():
     assert (ROOT/'quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md').exists()
     assert (ROOT/'validation/knowledge-confidence-validation.md').exists()
-    assert (ROOT/'VERSION').read_text().strip()=='2.0.0-dev.6'
+    assert (ROOT/'VERSION').read_text().strip()=='2.0.0-rc.1'

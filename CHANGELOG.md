@@ -1,4 +1,10 @@
-# 2.0.0-dev.6
+# 2.0.0-rc.1
+
+- Editorial Strategy Engine
+- Four-layer Shared architecture
+- Contract 4.0 minimal delivery
+
+# 2.0.0-rc.1
 
 - Added Knowledge Confidence and Freshness gates.
 
