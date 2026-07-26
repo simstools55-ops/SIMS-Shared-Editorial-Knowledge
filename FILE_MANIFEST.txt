@@ -14,6 +14,7 @@ RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
 RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md
+RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -55,6 +56,7 @@ mappings/writer/application-mapping.md
 quality/COPY_READY_OUTPUT_STANDARD_V2.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/EVIDENCE_DECISION_POLICY_V2.md
+quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md
 quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md
 quality/PUBLICATION_VISIBILITY_POLICY_V2.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
@@ -71,9 +73,11 @@ tests/test_v2_0_0_dev2_serp_first.py
 tests/test_v2_0_0_dev3_serp_evidence_gate.py
 tests/test_v2_0_0_dev4_evidence_layer.py
 tests/test_v2_0_0_dev5_progressive_editing.py
+tests/test_v2_0_0_dev6_knowledge_confidence.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/evidence-contamination-validation.md
+validation/knowledge-confidence-validation.md
 validation/publication-pipeline-integrity-validation.md
 validation/publication-qa-regression-validation.md
 validation/publication-qa-validation.md

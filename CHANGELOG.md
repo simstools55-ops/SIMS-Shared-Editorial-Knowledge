@@ -1,3 +1,7 @@
+# 2.0.0-dev.6
+
+- Added Knowledge Confidence and Freshness gates.
+
 ## 2.0.0-dev.5
 
 # v2.0.0-dev.5 — Progressive Editing Engine
