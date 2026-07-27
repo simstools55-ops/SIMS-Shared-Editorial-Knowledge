@@ -2,7 +2,7 @@ from pathlib import Path
 ROOT=Path(__file__).parents[1]
 
 def test_version_and_library():
-    assert (ROOT/'VERSION').read_text().strip()=='2.2.0'
+    assert (ROOT/'VERSION').read_text().strip()=='2.3.0'
     lib=(ROOT/'quality/QUALITY_PATTERN_LIBRARY.md').read_text()
     for token in ['QP-004','QP-007','No-Loop Rule','MAPPING_DEFECT','VALIDATION_DEFECT']:
         assert token in lib
