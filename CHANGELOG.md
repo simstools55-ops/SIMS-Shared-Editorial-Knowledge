@@ -1,20 +1,38 @@
 # v2.2.0
 
-- Added Operational Learning Registry runtime.
-- Added learning area to scoped Shared snapshot.
+Operational Learning Registryを追加。実記事試験の知見を分類・追跡し、10記事単位でLearning Sprintを実施します。
 
-# 2.1.0 - Quality Pattern Library Integration
+# 2.1.0 - Quality Pattern Library
 
-- Integrated Shared Quality Pattern Library v1.0.
-- Added operational-learning classification and no-loop handling.
-- Repeated defects now route to Mapping or Validation fixes instead of ad hoc prompt growth.
+- Operational-test findings are now classified before promotion.
+- Added canonical pattern registry and no-loop governance.
+- Added mapping and validation requirements for recurring defects.
+
+## 2.0.1 - 2026-07-26
+
+- Hotfix: natural Japanese, publication flag separation, title semantic alignment, terminology consistency.
 
 ## 2.0.0 - 2026-07-26
 
+- Released the user-centered SEO editorial system.
 - Added final Natural Japanese and similarity-candidate reporting gates.
-- Stable release aligned with Contract 4.2.
+- Kept Contract 4.2 and all RC2 safety/integration gates unchanged.
 
-## 2.0.0-rc.3
+## 2.0.0-release-candidate.2 - 2026-07-26
+
+- Added final scope-alignment, device-path variability, and internal-link overlap release gates.
+- Prevented title/meta expansion into adjacent intents not covered by the article.
+- Required device-specific setting paths to account for OS/version/vendor differences.
+- Applied the same cannibalization and role-overlap review to every proposed internal link.
+
+## 2.0.0-release-candidate.1 - 2026-07-26
+
+- Added release final semantic, expectation, YMYL safety and benefit-claim gates.
+
+## 2.0.0-gold.1
+- Add quantitative SERP evidence, gap importance, and user-facing decision trace with Contract 4.2.
+
+## 2.0.0-gold.1
 
 - 公開可否の冒頭一文を必須化。
 - 公開OK理由を平易な一文以内へ短文化。
@@ -31,18 +49,18 @@
 
 - Added Knowledge Confidence and Freshness gates.
 
-## 2.0.0-rc.1
+## 2.0.0-dev.5
 
-# v2.0.0-rc.1 — Progressive Editing Engine
+# v2.0.0-dev.5 — Progressive Editing Engine
 
 - Added component-scoped SERP and Evidence decisions.
 - Partial SERP inspection now permits safe title, meta and introduction work while uncertain content expansion is held or sent to user decision.
 - Preserved Evidence contamination QA and silent internal rejection.
 - Simplified internal-link user output.
 
-## 2.0.0-rc.1
+## 2.0.0-dev.5
 
-# v2.0.0-rc.1 — Integrated Evidence Layer
+# v2.0.0-dev.5 — Integrated Evidence Layer
 
 - Search Console・verified SERP・一次/二次情報を統合するEvidence Layerを追加。
 - HIGH/MEDIUM/LOW/NONEの内部Evidence判定をEditorial Decisionへ接続。
@@ -75,9 +93,7 @@
 - Moved QA and validation detail to internal audit records.
 
 # v1.4.0
-- Validationメッセージを簡潔化し監査形式を統一
-- review_traceをchecked配列中心へ構造化
-- cycle数とauto_fixesの正規化を強化
+- Validation監査メッセージとQA履歴構造を標準化
 
 # v1.3.9
 
@@ -85,44 +101,61 @@
 
 ## 1.3.8 - Regression Hotfix
 
-# SIMS Writer Claude v1.3.8 Regression Hotfix
+# Shared Editorial Knowledge v1.3.8 Regression Hotfix
 
-旧出力指示との競合を除去し、Canonical Contract、日本語表示、Reviewer停止条件を最終強制しました。
-
-# 1.3.7
-
-# SIMS Writer v1.3.7 — Contract Cleanup, Reviewer Precision, Japanese UX and Release Cleaner
-
-- `changes[].target`を`component`へ統一
-- 空文字と未変更項目の出力を抑止
-- `auto_fixes`、`review_trace`、QA契約識別子を固定
-- 内部リンク評価を候補単位で保持
-- LOW/MEDIUM Coverage時の断定抑制を強化
-- 利用者向け専門用語を日本語基本・初出のみ英語併記へ変更
-- `.pytest_cache`、`__pycache__`等を除去するRelease Cleanerを追加
+Canonical Publication QA output, unresolved-finding verdict alignment, claim-precision rules, and Japanese user-facing terminology were hardened.
 
 # 1.3.6
 - Locked Publication QA pipeline and canonical final output.
 
-# 1.3.0 - Quality & Validation Hardening
+## 1.3.1 - 2026-07-24
 
-- Writer本体v1.3.0と完全同期
-- Shared Snapshot v1.3.0
-- Contract 2.1運用指示を追加
+- KN-ENTITY-001を明文化し、メタディスクリプションを含むHTML Entity二重エンコード防止規則を強化。
+- VAL-ENTITY-001のPASS条件と検出対象を明確化。
 
+# 1.3.0 - Writer Quality & Validation Hardening
+
+- 6つの共通Validationコードを追加
+- Writer/Article Creator Mappingへ共通Validationを接続
+- 製品固有のQuery IntelligenceとJSON ContractをSharedから分離維持
+- Snapshot生成時の版数・Manifest整合性を強化
+
+
+## 1.2.0 - 2026-07-24
+- 最大200件のSearch Console Query Data解析ルールを追加。
+- Coverage信頼度、Raw Query Preservation、Intent Action Classificationを追加。
+- QUERY MIX、CONTENT GAP、カニバリ判定の推論境界を明文化。
+
+# Changelog
+
+## 1.1.3 - 2026-07-23
+
+### Fixed
+- Defined product-scoped Shared snapshots.
+- Prohibited cross-product mapping inclusion in Claude packages.
+- Removed accidental root-level duplicate and misnamed files that could confuse Project Knowledge.
+- Added snapshot boundary validation.
 
 ## 1.1.1 - 2026-07-22
-- Shared Editorial Knowledge v1.1.1へ同期。
-- 中心主張優先検証、Source-Scope表現、LOW_SAMPLE時の最小変更を強化。
-- 内部リンクのadopted / pending / rejected判定を明確化。
+- 運用試験Learningを共通知識へ昇格。
+- 中心主張優先検証、調査範囲限定表現、Evidence強度別表現を追加。
+- Graceful Degradation、既存本文反映、FAQ再構成を正式化。
+- Buyer Trust、価格鮮度、Entity Alias、Taxonomy鮮度を追加。
 
 ## 1.1.0 - 2026-07-21
-- Production baseline.
 
-## 1.3.2 - Publication QA Foundation
+- Added FAQ Evolution as shared editorial knowledge.
+- Added Conditional Editorial Opinion as shared editorial knowledge.
+- Expanded Writer application mapping to all seven validated editorial capabilities.
+- Preserved v1.0.0 compatibility and editorial guardrails.
 
-- Added mandatory final Publication QA workflow and safe auto-fix boundaries.
-- Added five-level publication verdicts and release gate documentation.
+## 1.0.0
+
+- Established the Shared Editorial Knowledge repository and Writer/Article Creator mappings.
+
+## 1.3.2
+
+- Added common Publication QA principles and validation requirements for final editorial release review.
 
 ## 1.3.3 - Regression Evaluation Profiles
 
@@ -132,23 +165,29 @@
 - Source article fixtures remain pending and are reported as SKIP.
 
 ## 1.3.4
-- Added Self QA runtime instructions and platform-neutral QA contract reference.
+- Added platform-neutral Editorial QA Contract v1.
 
 ## 1.3.5
-- Added QA-reviewed final output integration rules.
+- Added final publication output principles and held-draft suppression rule.
 
-## 2.0.0-rc.3
-- Stabilized final output integration and removed active legacy contract conflicts.
+## 2.0.0-gold.1
+- Added final integration precedence and visibility validation.
+
+## 2.0.0-gold.1
+- Add shared SERP gap explainability pattern.
 
 ## 2.3.0
 
-- Synchronized Shared Publication Integrity Standard v2.3.
-- Added dynamic information, marketing claim, CTA and FAQ validation.
-- Added cross-component claim sweep and final JSON synchronization.
-- Added local Correction Request Mode.
+- Added publication integrity and dynamic information standard.
+- Added affiliate CTA editable/protected boundary.
+- Added FAQ and cross-component consistency validation.
+- Added final publication/JSON synchronization requirements.
+- Added safe rewrite pattern for unverified dynamic claims.
 
 ## 2.4.0 - 2026-07-28
 
-- Integrated Shared v2.4.0 real-article validation snapshot.
-- Added strict Before source, paste-ready After, cross-output synchronization and whole-article safety final gate.
-- Added eight real-article regression learnings.
+- Added strict real-article Before source integrity and paste-ready After validation.
+- Separated Search Console demand from factual evidence.
+- Added whole-article supernatural/health and conditional food-safety guards.
+- Added LOW_SAMPLE title control, Winner Query protection, title promise alignment and internal-link destination validation.
+- Registered eight real-article regression learnings and fixtures.

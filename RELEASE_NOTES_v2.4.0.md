@@ -1,10 +1,11 @@
-# SIMS Writer v2.4.0
+# SIMS Shared Editorial Knowledge v2.4.0
 
-Real-article Validation Hardening.
+Real-article Validation Hardening release.
 
-- Shared Editorial Knowledge v2.4.0 integration
-- Actual-article Before integrity
-- Paste-ready final text and Contract 4.2 synchronization
-- Search demand/evidence separation
-- LOW_SAMPLE and Winner Query controls
-- Whole-article YMYL and feature-scope validation
+- Strict actual-article Before integrity
+- Paste-ready After and publication JSON synchronization
+- Search demand versus factual evidence boundary
+- LOW_SAMPLE title control and Winner Query protection
+- Whole-article YMYL safety for supernatural causation and food handling
+- Internal-link destination and title-promise validation
+- Eight verified operational-learning regression fixtures
