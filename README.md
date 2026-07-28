@@ -1,58 +1,29 @@
-# SIMS Shared Editorial Knowledge v2.1.0
+# SIMS Writer RC3 Claude Package
 
-# SIMS Shared Editorial Knowledge
+このフォルダーは、SIMS Writer v0.15.3-alpha.1をClaude Projectへ登録するためのファイル一式です。
 
-SIMS WriterとSIMS Article Creatorが共有する編集品質基準の正本（Single Source of Truth）です。
+## Claudeへ登録するファイル
 
-## 目的
+1. `CLAUDE_PROJECT_INSTRUCTIONS.md`
+   - Claude Projectの「Project Instructions」へ全文を貼り付けます。
+2. `knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md`
+   - Claude Projectの「Project Knowledge」へアップロードします。
 
-- 両製品で共通するSEO・編集・Evidence知識を一元管理する
-- 共通知識と製品固有の適用ルールを分離する
-- WriterのPreservation思想とCreatorの新規設計思想を混同しない
+既存のSIMS Writer用InstructionsとKnowledgeは削除または差し替え、旧版と混在させないでください。
 
-## 構成
+## テスト
 
-```text
-knowledge/                 共通知識の正本
-strategy/                  編集戦略
-evidence/                  出典・公開境界
-patterns/                  再利用可能な編集パターン
-quality/                   Quality Pattern Libraryと品質契約
-mappings/writer/           Writer固有の適用ルール
-mappings/article-creator/  Article Creator固有の適用ルール
-validation/                共通知識の品質検証基準
-tests/                     リポジトリ整合性テスト
-docs/                      運用・統合ドキュメント
-```
+更新後は、まずA000008相当の依頼を`partial`モードで実行し、次を確認します。
 
-## 利用原則
-
-1. 共通知識の変更はこのリポジトリで行う。
-2. WriterとArticle Creatorは、リリース済みバージョンから生成した「製品別スコープ済みスナップショット」を取り込む。
-3. 製品側で共通知識を独自編集しない。
-4. 製品への取り込み後は、各製品の回帰テストを実行する。
-
-## Version
-
-`1.0.0`
+- 全文が出ない
+- Before / After / 理由が出る
+- JSONが最後に1つだけ出る
+- JSON後に文章がない
+- `main_query`へ説明文が混ざらない
+- 本文セクション追加時は`changes.body=true`
+- 未確認URLが`adopted`にならない
 
 
-## v1.1.1 Operational Learning
-中心主張、Evidence表現、データ不足時の縮退、購入情報鮮度を共通ルールとして追加しました。
+## v1.1.2 Sprint 1 product guides
 
-
-## v1.1.3 Product-scoped snapshots
-
-完全なShared Repositoryには両製品のmappingを保持しますが、各Claude Projectへ同梱するsnapshotには対象製品のmappingだけを含めます。詳細は `docs/product-scoped-snapshot-policy.md` を参照してください。
-
-
-## v2.0.0 RC1 Four-Layer Architecture
-Knowledge / Strategy / Evidence / Patternを分離し、修正前にEditorial Strategyを確定します。
-
-
-## v2.1.0 Quality Pattern Library
-運用試験で発見した再発防止ルールをRegistry化し、記事固有修正・Mapping不具合・Validation不具合を区別します。
-
-## v2.3 Publication Integrity
-
-Shared Editorial KnowledgeはSEO知識集に限定せず、SIMS製品共通の編集品質基準を提供します。v2.3では変動情報、マーケティング主張、アフィリエイトCTA、FAQ、本文とJSONの同期を正本化しました。
+Claude Projectは`product/quality/QUALITY_FRAMEWORK.md`、`product/platform/SIMS_PLATFORM_GUIDE.md`、`product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md`をWriter本体と同一内容で参照します。

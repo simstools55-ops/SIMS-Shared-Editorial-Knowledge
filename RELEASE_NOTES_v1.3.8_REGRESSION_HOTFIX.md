@@ -1,3 +1,3 @@
-# Shared Editorial Knowledge v1.3.8 Regression Hotfix
+# SIMS Writer Claude v1.3.8 Regression Hotfix
 
-Canonical Publication QA output, unresolved-finding verdict alignment, claim-precision rules, and Japanese user-facing terminology were hardened.
+旧出力指示との競合を除去し、Canonical Contract、日本語表示、Reviewer停止条件を最終強制しました。

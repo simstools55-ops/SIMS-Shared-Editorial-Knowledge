@@ -1,3 +1,3 @@
-# Shared Editorial Knowledge v2.0.0-dev.1
+# SIMS Writer Claude v2.0.0-dev.1
 
-編集判断、公開可視性、Copy-ready品質の共通原則を追加。製品固有の画面構成やContract実装は含めない。
+利用者中心のSEO編集出力へ移行。公開OK／利用者判断だけを表示し、内部QAを非表示化する実行規則を追加。

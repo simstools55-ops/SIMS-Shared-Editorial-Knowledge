@@ -1,7 +1,3 @@
-# Release Notes v2.2.0 — Operational Learning Registry
+# SIMS Writer Claude v2.2.0
 
-- Added product-neutral `learning/` registry area.
-- Added intake template and ten-article Learning Sprint playbook.
-- Added lifecycle/status tracking for accepted, rejected, duplicate, implemented and verified findings.
-- Added Learning Registry validation and Writer mapping.
-- Scoped Snapshot builder now includes `learning/`.
+Learning Registry RuntimeとShared learning snapshotを追加しました。実記事レビューは分類後に処置し、同じ指摘への反射的なPrompt増殖を防ぎます。
