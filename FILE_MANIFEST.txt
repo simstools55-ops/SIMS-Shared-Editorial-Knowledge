@@ -28,6 +28,7 @@ RELEASE_NOTES_v2.1.0.md
 RELEASE_NOTES_v2.2.0.md
 RELEASE_NOTES_v2.3.0.md
 RELEASE_NOTES_v2.4.0.md
+RELEASE_NOTES_v2.5.0.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -83,14 +84,17 @@ learning/LEARNING_INTAKE_TEMPLATE.md
 learning/LEARNING_REGISTRY.json
 learning/LEARNING_SPRINT_PLAYBOOK.md
 learning/README.md
+manifest.json
 mappings/article-creator/application-mapping.md
 mappings/writer/application-mapping.md
 patterns/answer-first-pattern.md
 patterns/dynamic-claim-safe-rewrite-pattern.md
 patterns/evidence-publication-boundary-pattern.md
 patterns/expectation-alignment-pattern.md
+patterns/faq-query-normalization-pattern.md
 patterns/freshness-qualification-pattern.md
 patterns/gap-completion-pattern.md
+patterns/howto-evidence-strength-heading-pattern.md
 patterns/internal-link-role-separation-pattern.md
 patterns/low-sample-title-control-pattern.md
 patterns/natural-japanese-pattern.md
@@ -145,8 +149,10 @@ tests/test_v2_1_0_quality_pattern_library.py
 tests/test_v2_2_0_learning_registry.py
 tests/test_v2_3_0_publication_integrity.py
 tests/test_v2_4_0_real_article_validation.py
+tests/test_v2_5_0_creator_quality_hardening.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
+validation/creator-quality-hardening-validation.md
 validation/editorial-strategy-validation.md
 validation/evidence-contamination-validation.md
 validation/knowledge-confidence-validation.md
