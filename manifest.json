@@ -1,6 +1,6 @@
 {
   "package": "SIMS-Shared-Editorial-Knowledge",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "generated_at": "2026-08-01",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1cccb71676920252f846768df490c0c83a9ccea14da4b8310775d074fa92f23d",
-      "size": 7999
+      "sha256": "97747f5579a55ae1354f399e24407ed7f3fb182840b5dfeebffd220da2b0fc31",
+      "size": 8094
     },
     {
       "path": "FILE_MANIFEST.txt",
-      "sha256": "1d9db22f77c0db70a258786484c67a91924d5deb9348f96e024aaa027ff92243",
-      "size": 8803
+      "sha256": "0aab2dcc24e47ffe56861efcb4646d65c08a9ea4b38b21208d02d09287f031f5",
+      "size": 7303
     },
     {
       "path": "LICENSE",
@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "27caa225ae8d422d86ee5f3a30503d474eb541b029aeb82f2253ce9f2a7b4f5c",
-      "size": 2817
+      "sha256": "34a8af1831f33d3313cb8fee88d369e41acd505de85cb04b8423d7e427baff0e",
+      "size": 2957
     },
     {
       "path": "RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md",
@@ -169,8 +169,13 @@
       "size": 200
     },
     {
+      "path": "RELEASE_NOTES_v3.0.2.md",
+      "sha256": "2ad5a3c745130f327776ebe653362cf6c8ae2bc995e2f0d81943aee3c1487958",
+      "size": 335
+    },
+    {
       "path": "VERSION",
-      "sha256": "06e3fe4a7a1884d20d81cc7065ca8cfd4c394ec602c4d180ddc39bbd4f7da521",
+      "sha256": "3fc0bf8d7ddbfe77eb4074c0b03d6567d7874a25ea4144aadea6686fcd5f6feb",
       "size": 6
     },
     {
@@ -287,6 +292,11 @@
       "path": "knowledge/faq-reconstruction.md",
       "sha256": "52d1c48d61708109c16a3f14b1fc21ac3becf3585f71b8e3f70e0c2b318ffcd5",
       "size": 358
+    },
+    {
+      "path": "knowledge/fee-subject-clarity.md",
+      "sha256": "f2e63fd022cc4612aef3b71226c9eb473ca0355a6791196617304456a8d4cc2f",
+      "size": 557
     },
     {
       "path": "knowledge/food-safety-conditional-claims.md",
@@ -847,6 +857,11 @@
       "path": "validation/evidence-contamination-validation.md",
       "sha256": "19824144d95df93e383eaa63f7246a52e478689da34bb50b765ad48adf88f3bd",
       "size": 274
+    },
+    {
+      "path": "validation/fee-subject-auto-repair-validation.md",
+      "sha256": "1a9994834e88c090e9220b4d7ae137bb4997e6f9312007bc047722353a72bb79",
+      "size": 508
     },
     {
       "path": "validation/knowledge-confidence-validation.md",
