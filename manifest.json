@@ -1,7 +1,7 @@
 {
   "package": "SIMS-Shared-Editorial-Knowledge",
-  "version": "3.0.2",
-  "generated_at": "2026-08-01",
+  "version": "3.1.0",
+  "generated_at": "2026-08-02",
   "files": [
     {
       "path": ".gitignore",
@@ -10,13 +10,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "97747f5579a55ae1354f399e24407ed7f3fb182840b5dfeebffd220da2b0fc31",
-      "size": 8094
+      "sha256": "a8a0b5319aa831be4d6cbdc6888508f5a380454c38c65e86199303ede54fd978",
+      "size": 8313
     },
     {
       "path": "FILE_MANIFEST.txt",
-      "sha256": "0aab2dcc24e47ffe56861efcb4646d65c08a9ea4b38b21208d02d09287f031f5",
-      "size": 7303
+      "sha256": "8c6106185359252a31ee77fe2bea3a9a63b0d17b87f9a99832acc01d6b4bfcae",
+      "size": 7456
     },
     {
       "path": "LICENSE",
@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "34a8af1831f33d3313cb8fee88d369e41acd505de85cb04b8423d7e427baff0e",
-      "size": 2957
+      "sha256": "a8171a047460c62daf106c92e0e1712eef06336c4e8790591fdc99eb652308e1",
+      "size": 3176
     },
     {
       "path": "RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md",
@@ -174,8 +174,18 @@
       "size": 335
     },
     {
+      "path": "RELEASE_NOTES_v3.1.0.md",
+      "sha256": "0a0a70b63d075891f44fc246c1ad260f42e9cdc85e42d1dda9fa186d7ce4a1e8",
+      "size": 420
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "2ce08cdf785c549c45bf9921ebdc72641aa11c9143cc7d54763408e88987f203",
+      "size": 20080
+    },
+    {
       "path": "VERSION",
-      "sha256": "3fc0bf8d7ddbfe77eb4074c0b03d6567d7874a25ea4144aadea6686fcd5f6feb",
+      "sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6",
       "size": 6
     },
     {
@@ -465,8 +475,8 @@
     },
     {
       "path": "learning/LEARNING_REGISTRY.json",
-      "sha256": "65487a3bd8869ae2b57f0b1b4155cb7335c6b21bf74be964d9bf7cb74ba46be8",
-      "size": 4965
+      "sha256": "aab36e6cee2e2d1ffe2dcad2be91a85bc758a1c2838e13866e4bf447e63306f9",
+      "size": 5585
     },
     {
       "path": "learning/LEARNING_SPRINT_PLAYBOOK.md",
@@ -485,8 +495,8 @@
     },
     {
       "path": "mappings/writer/application-mapping.md",
-      "sha256": "2b553ca736b083e3942e9b827e4c262e028e3e45a8bfd672521b89b5bb928b76",
-      "size": 4599
+      "sha256": "c71bac4cdc698c7989b1678443ae4e646fab88ad45a6832eeaaee0e883f2698e",
+      "size": 4915
     },
     {
       "path": "patterns/answer-first-pattern.md",
@@ -517,6 +527,11 @@
       "path": "patterns/gap-completion-pattern.md",
       "sha256": "a7f05e3ff8c8393c0b0bc34d87736a8964dc3f765b084500f24b21db8096d487",
       "size": 207
+    },
+    {
+      "path": "patterns/intent-drift-cross-link-pattern.md",
+      "sha256": "ef037c0ace6598a568f4f34362870863599d2d535cb074322d1b5a9a2941b6d7",
+      "size": 1579
     },
     {
       "path": "patterns/internal-link-role-separation-pattern.md",
@@ -589,6 +604,11 @@
       "size": 329
     },
     {
+      "path": "product/revenue-first-validation-principle.md",
+      "sha256": "1ce8214acca7f7bd8453f9438bebc733414da72ef31fb72fd93e04a2cb49ba21",
+      "size": 2341
+    },
+    {
       "path": "quality/COPY_READY_OUTPUT_STANDARD_V2.md",
       "sha256": "a4ce74b595817f547470363916ccf13cd6b8e35fe342a93d4dcf318b243f5bd5",
       "size": 304
@@ -640,8 +660,8 @@
     },
     {
       "path": "quality/QUALITY_PATTERN_LIBRARY.md",
-      "sha256": "6fbc075c1a5d8ec15ae9c75896b015da136cdc50f46036b8e6b5cd2e76138af3",
-      "size": 5391
+      "sha256": "8e0de0cdfdf0806a813dfc547dc677672c90e3a74400eb5a053914dddc954739",
+      "size": 5573
     },
     {
       "path": "quality/REVIEWER_PRECISION_RULES_v1.3.7.md",
@@ -917,6 +937,11 @@
       "path": "validation/release-final-quality-gates.md",
       "sha256": "6f038e7bc2046410e5f73c91deb72f4bc9cf4bbd8d999ff043dc3df6ce7d1c39",
       "size": 1778
+    },
+    {
+      "path": "validation/revenue-first-validation.md",
+      "sha256": "dbf0d8211321c2490ff2ec404a12b46819198eba3a0945d0c24ee329f9e8d2df",
+      "size": 1564
     },
     {
       "path": "validation/seo-critical-auto-repair-validation.md",

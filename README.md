@@ -1,3 +1,7 @@
+
+## v3.1.0 Revenue First Validation
+
+Revenue impact, search intent, winner-query preservation and publication integrity now determine blocking priority. Editorial polish with negligible SEO impact remains non-blocking.
 # SIMS Shared Editorial Knowledge v2.4.0
 
 # SIMS Shared Editorial Knowledge

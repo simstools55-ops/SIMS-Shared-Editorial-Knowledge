@@ -31,6 +31,7 @@ RELEASE_NOTES_v2.4.0.md
 RELEASE_NOTES_v3.0.0.md
 RELEASE_NOTES_v3.0.1.md
 RELEASE_NOTES_v3.0.2.md
+RELEASE_NOTES_v3.1.0.md
 VERSION
 docs/integration-policy.md
 docs/product-scoped-snapshot-policy.md
@@ -100,6 +101,7 @@ patterns/evidence-publication-boundary-pattern.md
 patterns/expectation-alignment-pattern.md
 patterns/freshness-qualification-pattern.md
 patterns/gap-completion-pattern.md
+patterns/intent-drift-cross-link-pattern.md
 patterns/internal-link-role-separation-pattern.md
 patterns/low-sample-title-control-pattern.md
 patterns/natural-japanese-pattern.md
@@ -114,6 +116,7 @@ policies/confidence-policy.md
 policies/editorial-assembly-policy.md
 policies/review-policy.md
 policies/source-policy.md
+product/revenue-first-validation-principle.md
 quality/COPY_READY_OUTPUT_STANDARD_V2.md
 quality/EDITORIAL_QA_CONTRACT_V1.md
 quality/EVIDENCE_DECISION_POLICY_V2.md
@@ -180,6 +183,7 @@ validation/quality-pattern-library-validation.md
 validation/rc2-final-integration-validation.md
 validation/real-article-publication-validation.md
 validation/release-final-quality-gates.md
+validation/revenue-first-validation.md
 validation/seo-critical-auto-repair-validation.md
 validation/shared-knowledge-validation.md
 validation/temporal-lifecycle-validation.md
