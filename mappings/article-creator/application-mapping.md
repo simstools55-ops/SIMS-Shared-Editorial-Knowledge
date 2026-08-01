@@ -28,9 +28,6 @@ SIMS Article Creatorは共通知識を新規記事設計へ適用する。
 
 Article Creatorは製品中立Patternのみを利用する。既存記事のBefore/After、Preservation、Search Console固有判断はWriter専用であり適用しない。
 
-## v2.5.0 Creator Quality Hardening Mapping
+## v3.0 compatibility mapping
 
-- HOWTO-011: 見出し・Outline・本文のEvidence Strengthを同期し、条件付きでも検索語を保持する。
-- QA-004: FAQを検索者の自然な疑問文へ正規化し、類似概念を分離する。
-- Creator公開前にFreshness、Promise、Numeric、Concept、Internal Link Semantic、Output Syncを一括検査する。
-- Writer専用のBefore/After、Winner Query、Search Console判定は導入しない。
+Creator may consume confidence, source, contradiction, preservation, and learning-promotion rules. Temporal lifecycle recovery is used only when a new article covers a time-sensitive subject; it does not change Creator's new-article-only identity.

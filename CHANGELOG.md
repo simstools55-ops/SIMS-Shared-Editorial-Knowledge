@@ -192,7 +192,7 @@ Canonical Publication QA output, unresolved-finding verdict alignment, claim-pre
 - Added LOW_SAMPLE title control, Winner Query protection, title promise alignment and internal-link destination validation.
 - Registered eight real-article regression learnings and fixtures.
 
-## 2.5.0 - Creator Quality Hardening
-- Added HOWTO-011 heading/body Evidence Strength alignment.
-- Added QA-004 FAQ query normalization and concept separation.
-- Added Creator pre-publish validation for freshness, promise, numeric and output consistency.
+## 3.0.0 - 2026-08-01
+- Added temporal intent and content lifecycle knowledge.
+- Added confidence, contradiction, preservation, and learning promotion architecture.
+- Added shared registries, policies, recovery pattern, and validation.
