@@ -210,3 +210,6 @@ Canonical Publication QA output, unresolved-finding verdict alignment, claim-pre
 
 ## 3.0.2 - 2026-08-01
 - Added Fee Subject Clarity and cross-component auto-repair validation.
+
+## 3.1.1
+- Added Doctor interface and safety-boundary knowledge.
