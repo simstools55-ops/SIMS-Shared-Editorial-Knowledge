@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.3.0 - 2026-08-05
+
+- Added SIMS Editorial Platform v1.0 architecture, workflow, repository governance, Claude operations, and release baseline.
+- Added common envelope and canonical v1 schemas for Doctor, Writer, Creator, Merge, publication, monitoring, events, and errors.
+- Added common enums, compatibility matrix, Platform manifest, and product-scoped snapshot definitions.
+- Added legacy adapters for SIMS_FEEDBACK_V2 and Doctor Case Result V2.
+- Added Merge knowledge, safety, preservation, publication-order, and rollback rules.
+- Preserved v3.2.0 SBM-centered routing compatibility.
+
 ## 3.2.0 - 2026-08-05
 
 - Established SBM as the platform orchestrator and Case lifecycle source of truth.

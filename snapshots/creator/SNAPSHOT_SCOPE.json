@@ -1,0 +1,13 @@
+{
+  "target_product": "creator",
+  "source_version": "3.3.0",
+  "included_paths": [
+    "contracts/common",
+    "contracts/creator",
+    "contracts/platform",
+    "knowledge",
+    "validation",
+    "patterns"
+  ],
+  "status": "SCOPE_DEFINED"
+}
