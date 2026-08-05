@@ -1,3 +1,13 @@
+# Changelog
+
+## 3.2.0 - 2026-08-05
+
+- Established SBM as the platform orchestrator and Case lifecycle source of truth.
+- Changed CaseID ownership from Doctor to SBM.
+- Added `SIMS_DOCTOR_CASE_RESULT_V2`, `SIMS_WRITER_TREATMENT_REQUEST_V1`, and `SIMS_WRITER_TREATMENT_RESULT_V1` to the canonical registry.
+- Added the minimum Case lifecycle and Workflow Lock routing rules.
+- Deprecated direct Doctor-to-Writer dispatch and Writer-to-Doctor result routing while retaining compatibility documentation.
+
 
 ## v3.1.0 Revenue First Validation
 
