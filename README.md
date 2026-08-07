@@ -1,42 +1,45 @@
-# SIMS Shared Editorial Knowledge v1.3.0
+# SIMS Shared Editorial Knowledge v3.4.0
 
-# SIMS Shared Editorial Knowledge
+SIMS Editorial PlatformのKnowledge and Contract Planeであり、共通Contract、Enum、編集知識、Validation、製品責務境界の唯一の正本です。
 
-SIMS WriterとSIMS Article Creatorが共有する編集品質基準の正本（Single Source of Truth）です。
-
-## 目的
-
-- 両製品で共通するSEO・編集・Evidence知識を一元管理する
-- 共通知識と製品固有の適用ルールを分離する
-- WriterのPreservation思想とCreatorの新規設計思想を混同しない
-
-## 構成
+## Platform構成
 
 ```text
-knowledge/                 共通知識の正本
-mappings/writer/           Writer固有の適用ルール
-mappings/article-creator/  Article Creator固有の適用ルール
-validation/                共通知識の品質検証基準
-tests/                     リポジトリ整合性テスト
-docs/                      運用・統合ドキュメント
+SBM -> Doctor -> SBM -> Writer / Creator / Merge -> SBM -> publication -> monitoring -> re-examination
+```
+
+- SBM：Control Plane、Case・状態・Routing・効果測定の正本
+- Doctor：診断、原因仮説、Treatment Plan、Referral
+- Writer：既存記事の治療
+- Creator：新記事作成と検索意図分離
+- Merge：複数記事の統合・役割整理・高リスク処置計画
+- Shared：Contract、Enum、共通知識、Validation、Governance
+
+## 主要Directory
+
+```text
+architecture/   Platform設計と運用
+contracts/      canonical Contract schemaとAdapter
+knowledge/      共通知識・製品別知識
+validation/     共通Validation
+patterns/       編集Pattern
+quality/        品質契約
+mappings/       Writer／Creator適用Mapping
+doctor/         Doctor Case・Routing互換仕様
+enums/          Platform共通Enum
+snapshots/      Product-scoped Snapshot定義
 ```
 
 ## 利用原則
 
-1. 共通知識の変更はこのリポジトリで行う。
-2. WriterとArticle Creatorは、リリース済みバージョンから生成した「製品別スコープ済みスナップショット」を取り込む。
-3. 製品側で共通知識を独自編集しない。
-4. 製品への取り込み後は、各製品の回帰テストを実行する。
+1. 共通Contract・Enum・横断ルールはこのRepositoryだけで変更します。
+2. 各製品はRelease済みSharedからProduct-scoped Snapshotを生成します。
+3. Doctorから専門製品へ直接依頼せず、すべてSBMを経由します。
+4. Case状態を確定できるのはSBMだけです。
+5. 削除・noindex・Redirect・統合など高リスク処置は利用者判断を必須とします。
 
 ## Version
 
-`1.0.0`
+`3.4.0`
 
-
-## v1.1.1 Operational Learning
-中心主張、Evidence表現、データ不足時の縮退、購入情報鮮度を共通ルールとして追加しました。
-
-
-## v1.1.3 Product-scoped snapshots
-
-完全なShared Repositoryには両製品のmappingを保持しますが、各Claude Projectへ同梱するsnapshotには対象製品のmappingだけを含めます。詳細は `docs/product-scoped-snapshot-policy.md` を参照してください。
+Platform compatibility: `SIMS Editorial Platform 1.x`

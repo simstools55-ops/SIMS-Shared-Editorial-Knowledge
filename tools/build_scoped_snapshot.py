@@ -8,7 +8,7 @@ def main():
  ap=argparse.ArgumentParser(); ap.add_argument("source",type=Path); ap.add_argument("target",choices=["writer","article-creator"]); ap.add_argument("destination",type=Path); a=ap.parse_args()
  if a.destination.exists(): shutil.rmtree(a.destination)
  a.destination.mkdir(parents=True)
- for name in ["knowledge","validation","docs"]: shutil.copytree(a.source/name,a.destination/name)
+ for name in ["knowledge","strategy","evidence","patterns","quality","learning","validation","docs"]: shutil.copytree(a.source/name,a.destination/name)
  shutil.copy2(a.source/"README.md",a.destination/"README.md"); shutil.copy2(a.source/"LICENSE",a.destination/"LICENSE"); shutil.copy2(a.source/"VERSION",a.destination/"VERSION"); shutil.copy2(a.source/"CHANGELOG.md",a.destination/"CHANGELOG.md")
  mapping=a.source/"mappings"/a.target/"application-mapping.md"
  shutil.copytree(a.source/"mappings"/a.target,a.destination/"mappings"/a.target)

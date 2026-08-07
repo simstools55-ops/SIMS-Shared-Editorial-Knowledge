@@ -17,6 +17,8 @@ REQUIRED_FILES = [
     "mappings/article-creator/application-mapping.md",
     "validation/shared-knowledge-validation.md",
     "docs/integration-policy.md",
+    "doctor/INTERFACE_CONTRACTS_V2.md",
+    "doctor/CASE_LIFECYCLE_V1.md",
 ]
 
 
@@ -26,7 +28,7 @@ def test_required_files_exist():
 
 
 def test_version_is_current():
-    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "1.4.0"
+    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() == "3.4.0"
 
 
 def test_no_empty_markdown_files():

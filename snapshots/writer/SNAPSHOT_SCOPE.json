@@ -1,0 +1,14 @@
+{
+  "target_product": "writer",
+  "source_version": "3.4.0",
+  "included_paths": [
+    "contracts/common",
+    "contracts/writer",
+    "contracts/platform",
+    "knowledge",
+    "validation",
+    "patterns",
+    "quality"
+  ],
+  "status": "SCOPE_DEFINED"
+}
