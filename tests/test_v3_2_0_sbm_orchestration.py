@@ -37,7 +37,7 @@ def test_case_lifecycle_contains_minimum_loop():
 
 def test_platform_registry_includes_doctor_contracts():
     registry = json.loads(read("registries/platform-registry.json"))
-    assert registry["version"] == "3.4.0"
+    assert registry["version"] == "3.5.0"
     assert any(item["id"] == "REG-DOCTOR-PLATFORM" for item in registry["registries"])
 
 

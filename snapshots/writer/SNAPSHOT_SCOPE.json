@@ -1,6 +1,6 @@
 {
   "target_product": "writer",
-  "source_version": "3.4.0",
+  "source_version": "3.5.0",
   "included_paths": [
     "contracts/common",
     "contracts/writer",
@@ -8,7 +8,8 @@
     "knowledge",
     "validation",
     "patterns",
-    "quality"
+    "quality",
+    "presentation"
   ],
   "status": "SCOPE_DEFINED"
 }

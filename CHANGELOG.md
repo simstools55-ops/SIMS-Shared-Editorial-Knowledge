@@ -1,3 +1,10 @@
+# 3.5.0
+
+- Added Platform-wide Human Experience Architecture and Presentation Framework.
+- Added Human/Machine Output policies and Human Usability Gate.
+- Declared Creator and Merge in the common Presentation scope without forcing implementation changes in this release.
+- Standardized Before/After usability requirements for Writer including Doctor Referral Treatment.
+
 # Changelog
 
 ## 3.4.0 - 2026-08-07

@@ -1,4 +1,4 @@
-# SIMS Shared Editorial Knowledge v3.4.0
+# SIMS Shared Editorial Knowledge v3.5.0
 
 SIMS Editorial PlatformのKnowledge and Contract Planeであり、共通Contract、Enum、編集知識、Validation、製品責務境界の唯一の正本です。
 
@@ -40,6 +40,11 @@ snapshots/      Product-scoped Snapshot定義
 
 ## Version
 
-`3.4.0`
+`3.5.0`
 
 Platform compatibility: `SIMS Editorial Platform 1.x`
+
+
+## Human Experience / Presentation
+
+`presentation/` defines the common Human Experience Architecture for SBM, Doctor, Writer, Creator, and Merge. Machine contracts remain detailed; human-facing output must be actionable and must follow the Presentation Standard.
