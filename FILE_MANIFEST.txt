@@ -40,6 +40,7 @@ RELEASE_NOTES_v3.2.0.md
 RELEASE_NOTES_v3.3.0.md
 RELEASE_NOTES_v3.4.0.md
 RELEASE_NOTES_v3.5.0.md
+RELEASE_NOTES_v3.5.1.md
 VERSION
 architecture/CLAUDE_OPERATIONS.md
 architecture/END_TO_END_WORKFLOW.md
@@ -177,6 +178,7 @@ policies/confidence-policy.md
 policies/editorial-assembly-policy.md
 policies/review-policy.md
 policies/source-policy.md
+policies/user-decision-resolution-policy-v3.5.1.md
 presentation/HUMAN_EXPERIENCE_ARCHITECTURE_V1.md
 presentation/HUMAN_OUTPUT_POLICY_V1.md
 presentation/HUMAN_USABILITY_GATE_V1.md
@@ -247,6 +249,7 @@ tests/test_v3_2_0_sbm_orchestration.py
 tests/test_v3_3_0_platform_baseline.py
 tests/test_v3_4_0_algorithm_evidence_boundary.py
 tests/test_v3_5_0_human_experience.py
+tests/test_v3_5_1_user_decision_resolution.py
 tools/build_scoped_snapshot.py
 validation/common-editorial-validation.md
 validation/editorial-strategy-validation.md
