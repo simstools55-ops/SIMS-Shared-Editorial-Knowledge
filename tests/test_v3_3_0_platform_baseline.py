@@ -3,10 +3,10 @@ import json
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_version_and_identity():
-    assert (ROOT/'VERSION').read_text().strip()=='3.5.0'
+    assert (ROOT/'VERSION').read_text().strip()=='3.5.2'
     identity=json.loads((ROOT/'PRODUCT_IDENTITY.json').read_text())
     assert identity['product_code']=='SHARED'
-    assert identity['current_version']=='3.5.0'
+    assert identity['current_version']=='3.5.2'
 
 def test_platform_contracts_exist_and_parse():
     required=[
@@ -30,7 +30,7 @@ def test_enums_and_snapshot_scopes():
     for name in ['product-code','case-status','treatment-type','result-status','diagnosis-code']:
       data=json.loads((ROOT/'enums'/f'{name}.json').read_text()); assert data['values']
     for target in ['sbm','doctor','writer','creator','merge']:
-      data=json.loads((ROOT/'snapshots'/target/'SNAPSHOT_SCOPE.json').read_text()); assert data['source_version']=='3.5.0'
+      data=json.loads((ROOT/'snapshots'/target/'SNAPSHOT_SCOPE.json').read_text()); assert data['source_version']=='3.5.2'
 
 def test_merge_safety_baseline():
     text=(ROOT/'knowledge/merge/MERGE_VALIDATION.md').read_text()

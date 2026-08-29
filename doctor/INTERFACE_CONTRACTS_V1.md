@@ -1,4 +1,6 @@
 # SIMS Doctor Interface Contract Registry v0.1.0
+> Current user-facing product name: **SIMS Article Doctor**. Legacy `Doctor` wording below is retained because this document describes the former compatibility model.
+
 
 > **Deprecated compatibility document.**
 >

@@ -1,6 +1,6 @@
 {
   "target_product": "creator",
-  "source_version": "3.5.1",
+  "source_version": "3.5.2",
   "included_paths": [
     "contracts/common",
     "contracts/creator",

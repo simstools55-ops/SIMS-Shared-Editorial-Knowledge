@@ -1,15 +1,15 @@
-# SIMS Shared Editorial Knowledge v3.5.1
+# SIMS Shared Editorial Knowledge v3.5.2
 
 SIMS Editorial PlatformのKnowledge and Contract Planeであり、共通Contract、Enum、編集知識、Validation、製品責務境界の唯一の正本です。
 
 ## Platform構成
 
 ```text
-SBM -> Doctor -> SBM -> Writer / Creator / Merge -> SBM -> publication -> monitoring -> re-examination
+SBM -> Article Doctor -> SBM -> Writer / Creator / Merge -> SBM -> publication -> monitoring -> re-examination
 ```
 
 - SBM：Control Plane、Case・状態・Routing・効果測定の正本
-- Doctor：診断、原因仮説、Treatment Plan、Referral
+- Article Doctor：診断、原因仮説、Treatment Plan、Referral
 - Writer：既存記事の治療
 - Creator：新記事作成と検索意図分離
 - Merge：複数記事の統合・役割整理・高リスク処置計画
@@ -25,7 +25,7 @@ validation/     共通Validation
 patterns/       編集Pattern
 quality/        品質契約
 mappings/       Writer／Creator適用Mapping
-doctor/         Doctor Case・Routing互換仕様
+doctor/         Article Doctor Case・Routing互換仕様
 enums/          Platform共通Enum
 snapshots/      Product-scoped Snapshot定義
 ```
@@ -47,4 +47,4 @@ Platform compatibility: `SIMS Editorial Platform 1.x`
 
 ## Human Experience / Presentation
 
-`presentation/` defines the common Human Experience Architecture for SBM, Doctor, Writer, Creator, and Merge. Machine contracts remain detailed; human-facing output must be actionable and must follow the Presentation Standard.
+`presentation/` defines the common Human Experience Architecture for SBM, Article Doctor, Writer, Creator, and Merge. Machine contracts remain detailed; human-facing output must be actionable and must follow the Presentation Standard.

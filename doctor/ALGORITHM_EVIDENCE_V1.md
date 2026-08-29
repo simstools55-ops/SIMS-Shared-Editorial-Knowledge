@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Google検索アルゴリズム更新や検索結果環境の変化を、SIMS Doctorが診断へ統合するためのPlatform共通境界を定義する。
+Google検索アルゴリズム更新や検索結果環境の変化を、SIMS Article Doctorが診断へ統合するためのPlatform共通境界を定義する。
 
 ## Core rule
 
@@ -44,7 +44,7 @@ Algorithm Evidenceは次のような役割評価を取り得る。
 ## Product responsibility
 
 - SBM: GSC、記事、履歴、site impact等のEvidenceを収集・集計・保存・配送する。
-- Doctor: Algorithm Evidenceを外部環境Evidenceとして評価し、他Evidenceと統合して診断・Treatment Strategyを決定する。
+- Article Doctor: Algorithm Evidenceを外部環境Evidenceとして評価し、他Evidenceと統合して診断・Treatment Strategyを決定する。
 - Writer / Creator / Merge: SBMから発行された紹介状・依頼だけを処置する。Algorithm Evidenceを理由に独自Routingしない。
 
 ## Prohibited shortcuts

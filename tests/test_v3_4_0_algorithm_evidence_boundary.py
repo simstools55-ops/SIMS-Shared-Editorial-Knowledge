@@ -4,11 +4,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 def test_shared_version_340():
-    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() in {"3.5.0", "3.5.0"}
+    assert (ROOT / "VERSION").read_text(encoding="utf-8").strip() in {"3.5.2", "3.5.2"}
     identity = json.loads((ROOT / "PRODUCT_IDENTITY.json").read_text(encoding="utf-8"))
-    assert identity["current_version"] in {"3.5.0", "3.5.0"}
+    assert identity["current_version"] in {"3.5.2", "3.5.2"}
     platform = json.loads((ROOT / "PLATFORM_MANIFEST.json").read_text(encoding="utf-8"))
-    assert platform["shared_version"] in {"3.5.0", "3.5.0"}
+    assert platform["shared_version"] in {"3.5.2", "3.5.2"}
 
 def test_algorithm_evidence_is_not_diagnosis():
     text = (ROOT / "doctor/ALGORITHM_EVIDENCE_V1.md").read_text(encoding="utf-8")

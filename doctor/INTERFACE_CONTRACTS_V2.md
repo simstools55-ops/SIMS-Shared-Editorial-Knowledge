@@ -2,12 +2,12 @@
 
 ## 1. Purpose
 
-This registry defines the canonical minimum workflow connecting SIMS-Blog-Manager, SIMS Doctor, and SIMS Writer.
+This registry defines the canonical minimum workflow connecting SIMS-Blog-Manager, SIMS Article Article Doctor, and SIMS Writer.
 
 The platform orchestration rule is:
 
 ```text
-SBM -> Doctor -> SBM -> Writer -> SBM -> measurement -> Doctor re-examination
+SBM -> Article Doctor -> SBM -> Writer -> SBM -> measurement -> Article Doctor re-examination
 ```
 
 SIMS-Blog-Manager is the system of record for Case state, workflow history, requests, results, publication status, and performance measurement.
@@ -16,17 +16,17 @@ SIMS-Blog-Manager is the system of record for Case state, workflow history, requ
 
 | Contract | Source | Target | Responsibility |
 |---|---|---|---|
-| `SIMS_DOCTOR_SINGLE_CASE_REQUEST_V2` | SBM | Doctor | Individual diagnosis request and Evidence Package |
-| `SIMS_DOCTOR_CASE_RESULT_V2` | Doctor | SBM | Diagnosis, Treatment Plan, Referral, and re-examination conditions |
-| `SIMS_WRITER_TREATMENT_REQUEST_V1` | SBM | Writer | Doctor-referred treatment request with allowed and blocked scope |
+| `SIMS_DOCTOR_SINGLE_CASE_REQUEST_V2` | SBM | Article Doctor | Individual diagnosis request and Evidence Package |
+| `SIMS_DOCTOR_CASE_RESULT_V2` | Article Doctor | SBM | Diagnosis, Treatment Plan, Referral, and re-examination conditions |
+| `SIMS_WRITER_TREATMENT_REQUEST_V1` | SBM | Writer | Article Doctor-referred treatment request with allowed and blocked scope |
 | `SIMS_WRITER_TREATMENT_RESULT_V1` | Writer | SBM | Treatment result, referral compliance, and publication readiness |
-| `SIMS_DOCTOR_REEXAMINATION_REQUEST_V1` | SBM | Doctor | Post-treatment re-examination evidence |
+| `SIMS_DOCTOR_REEXAMINATION_REQUEST_V1` | SBM | Article Doctor | Post-treatment re-examination evidence |
 
 ## 3. Ownership rules
 
 - `site_id` and `article_id` are issued and owned by SBM.
 - `case_id` is issued and owned by SBM.
-- `diagnosis_id` is issued by Doctor and stored by SBM.
+- `diagnosis_id` is issued by Article Doctor and stored by SBM.
 - `treatment_request_id` is issued by SBM.
 - `treatment_result_id` is issued by the treatment product and stored by SBM.
 - `improvement_history_id` remains owned by SBM.
@@ -34,11 +34,11 @@ SIMS-Blog-Manager is the system of record for Case state, workflow history, requ
 
 ## 4. Routing rules
 
-- Doctor never directly invokes Writer, Creator, or Merge.
-- Doctor returns a diagnosis, Treatment Plan, and Referral to SBM.
+- Article Doctor never directly invokes Writer, Creator, or Merge.
+- Article Doctor returns a diagnosis, Treatment Plan, and Referral to SBM.
 - SBM validates the Referral, checks Workflow Lock, and creates the treatment request.
-- Writer returns the treatment result to SBM, not to Doctor.
-- Doctor receives a new request only when SBM requests diagnosis or re-examination.
+- Writer returns the treatment result to SBM, not to Article Doctor.
+- Article Doctor receives a new request only when SBM requests diagnosis or re-examination.
 - Creator and Merge will use the same SBM-mediated routing model when connected.
 
 ## 5. Case lifecycle source of truth
@@ -71,11 +71,11 @@ PUBLICATION_VERIFICATION_REQUIRED
 CANCELLED
 ```
 
-Doctor and Writer may report facts relevant to state transitions, but they do not authoritatively change the Case state.
+Article Doctor and Writer may report facts relevant to state transitions, but they do not authoritatively change the Case state.
 
 ## 6. Treatment scope rules
 
-A Doctor Referral may define:
+A Article Doctor Referral may define:
 
 - `allowed_scope`
 - `blocked_scope`
@@ -90,7 +90,7 @@ Writer must not modify a blocked scope. A scope conflict or violation is returne
 
 ## 6A. Algorithm and Treatment Strategy extensions
 
-Doctor case results may include additive, backward-compatible fields for:
+Article Doctor case results may include additive, backward-compatible fields for:
 
 - Algorithm Impact Assessment
 - Evidence Confidence metadata
@@ -99,14 +99,14 @@ Doctor case results may include additive, backward-compatible fields for:
 - User-facing ToDo
 - Evidence-based guidance / reassurance
 
-Algorithm information is Evidence, not a standalone diagnosis. Doctor must not route treatment directly from an update-date match. Site-wide impact evidence may be supplied by SBM as an aggregated Evidence Package component.
+Algorithm information is Evidence, not a standalone diagnosis. Article Doctor must not route treatment directly from an update-date match. Site-wide impact evidence may be supplied by SBM as an aggregated Evidence Package component.
 
-These extensions do not change the canonical routing path: `Doctor -> SBM -> specialist`.
+These extensions do not change the canonical routing path: `Article Doctor -> SBM -> specialist`.
 
 ## 7. Workflow Lock
 
-- Doctor may diagnose while an SBM monitoring lock exists.
-- Doctor cannot release, replace, or bypass an SBM lock.
+- Article Doctor may diagnose while an SBM monitoring lock exists.
+- Article Doctor cannot release, replace, or bypass an SBM lock.
 - SBM decides whether a treatment request may be generated.
 - A Referral received during a lock is stored and held until SBM permits the next transition.
 
@@ -117,8 +117,8 @@ These extensions do not change the canonical routing path: `Doctor -> SBM -> spe
 The following V1 routing is deprecated:
 
 ```text
-Doctor -> Writer
-Writer -> Doctor
+Article Doctor -> Writer
+Writer -> Article Doctor
 Doctor-owned case_id
 ```
 

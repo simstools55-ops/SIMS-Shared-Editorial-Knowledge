@@ -3,7 +3,7 @@ import json
 ROOT=Path(__file__).parents[1]
 
 def test_learning_registry_assets_and_version():
-    assert (ROOT/'VERSION').read_text().strip()=='3.5.0'
+    assert (ROOT/'VERSION').read_text().strip()=='3.5.2'
     required=['README.md','LEARNING_REGISTRY.json','LEARNING_INTAKE_TEMPLATE.md','LEARNING_SPRINT_PLAYBOOK.md','DECISION_LOG.md']
     for name in required: assert (ROOT/'learning'/name).is_file()
     reg=json.loads((ROOT/'learning/LEARNING_REGISTRY.json').read_text())
