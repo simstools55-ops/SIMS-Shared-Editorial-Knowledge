@@ -1,6 +1,6 @@
 {
   "target_product": "merge",
-  "source_version": "3.5.2",
+  "source_version": "3.5.3",
   "included_paths": [
     "contracts/common",
     "contracts/merge",

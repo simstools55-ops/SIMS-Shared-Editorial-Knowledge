@@ -3,9 +3,9 @@ import json
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_version_350():
-    assert (ROOT/'VERSION').read_text(encoding='utf-8').strip()=='3.5.2'
-    assert json.loads((ROOT/'PRODUCT_IDENTITY.json').read_text(encoding='utf-8'))['current_version']=='3.5.2'
-    assert json.loads((ROOT/'PLATFORM_MANIFEST.json').read_text(encoding='utf-8'))['shared_version']=='3.5.2'
+    assert (ROOT/'VERSION').read_text(encoding='utf-8').strip()=='3.5.3'
+    assert json.loads((ROOT/'PRODUCT_IDENTITY.json').read_text(encoding='utf-8'))['current_version']=='3.5.3'
+    assert json.loads((ROOT/'PLATFORM_MANIFEST.json').read_text(encoding='utf-8'))['shared_version']=='3.5.3'
 
 def test_presentation_framework_files_exist():
     for name in ['HUMAN_EXPERIENCE_ARCHITECTURE_V1.md','PRESENTATION_STANDARD_V1.md','HUMAN_OUTPUT_POLICY_V1.md','MACHINE_OUTPUT_POLICY_V1.md','HUMAN_USABILITY_GATE_V1.md']:

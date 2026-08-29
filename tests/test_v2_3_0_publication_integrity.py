@@ -2,7 +2,7 @@ from pathlib import Path
 ROOT=Path(__file__).parents[1]
 
 def test_publication_integrity_assets_and_version():
-    assert (ROOT/'VERSION').read_text().strip()=='3.5.2'
+    assert (ROOT/'VERSION').read_text().strip()=='3.5.3'
     required=[
       'knowledge/publication-integrity-and-dynamic-information.md',
       'knowledge/affiliate-cta-boundary.md',

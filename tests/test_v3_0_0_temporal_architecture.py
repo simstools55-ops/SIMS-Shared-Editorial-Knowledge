@@ -14,4 +14,4 @@ def test_v3_assets_exist():
 
 def test_registry_version():
     data=json.loads((ROOT/'registries/platform-registry.json').read_text(encoding='utf-8'))
-    assert data['version']=='3.5.2'
+    assert data['version']=='3.5.3'

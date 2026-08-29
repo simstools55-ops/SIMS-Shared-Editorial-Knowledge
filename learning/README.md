@@ -18,3 +18,7 @@
 - `PREFERENCE_ONLY`
 
 実記事試験の指摘は、修正提案より先に必ず分類します。
+
+## Product-neutral boundary
+
+Shared stores only generalized, reusable learning. Real article IDs, blog/site names, tenant-specific observations, and operational history must be stored outside the product repository in a personal/tenant editorial knowledge package. Regression fixtures may remain when they are generalized and contain no tenant identifiers.

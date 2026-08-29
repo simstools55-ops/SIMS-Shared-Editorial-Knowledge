@@ -1,4 +1,4 @@
-# SIMS Shared Editorial Knowledge v3.5.2
+# SIMS Shared Editorial Knowledge v3.5.3
 
 SIMS Editorial PlatformのKnowledge and Contract Planeであり、共通Contract、Enum、編集知識、Validation、製品責務境界の唯一の正本です。
 
